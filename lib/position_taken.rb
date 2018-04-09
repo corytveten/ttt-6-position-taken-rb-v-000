@@ -18,4 +18,5 @@ def position_taken?(board, index)
                   return false
                   if board[8] == " "
                     return false
+                  end
 end
