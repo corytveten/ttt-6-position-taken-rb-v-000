@@ -2,21 +2,21 @@
 def position_taken?(board, index)
   if board[0] == " "
     return false
-    if board[1] == " "
+  elsif board[1] == " "
       return false
-      if board[2] == " "
+    elsif board[2] == " "
         return false
-        if board[3] == " "
+      elsif board[3] == " "
           return false
-          if board[4] == " "
+        elsif board[4] == " "
             return false
-            if board[5] == " "
+          elsif board[5] == " "
               return false
-              if board[6] == " "
+            elsif board[6] == " "
                 return false
-                if board[7] == " "
+              elsif board[7] == " "
                   return false
-                  if board[8] == " "
+                elsif board[8] == " "
                     return false
                   end
 end
