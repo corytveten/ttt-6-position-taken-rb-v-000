@@ -1,5 +1,24 @@
 # code your #position_taken? method here!
 def position_taken?(board, index)
+if board[0] == "X" || "O"
+    return true
+  elsif board[1] == "X" || "O"
+      return true
+    elsif board[2] == "X" || "O"
+        return true
+      elsif board[3] == "X" || "O"
+          return true
+        elsif board[4] == "X" || "O"
+            return true
+          elsif board[5] == "X" || "O"
+              return true
+            elsif board[6] == "X" || "O"
+                return true
+              elsif board[7] == "X" || "O"
+                  return true
+                elsif board[8] == "X" || "O"
+                    return true
+                  end
   if board[0] == " "
     return false
   elsif board[1] == " "
@@ -18,23 +37,5 @@ def position_taken?(board, index)
                   return false
                 elsif board[8] == " "
                     return false
-                elsif board[0] == "X" || "O"
-                    return true
-                  elsif board[1] == "X" || "O"
-                      return true
-                    elsif board[2] == "X" || "O"
-                        return true
-                      elsif board[3] == "X" || "O"
-                          return true
-                        elsif board[4] == "X" || "O"
-                            return true
-                          elsif board[5] == "X" || "O"
-                              return true
-                            elsif board[6] == "X" || "O"
-                                return true
-                              elsif board[7] == "X" || "O"
-                                  return true
-                                elsif board[8] == "X" || "O"
-                                    return true
                                   end
 end
